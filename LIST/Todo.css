@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Epunda Slab", serif;
+}
+body{
+    background-color: rgb( 232,238,238);
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-container{
+    width:100%;
+    max-width:500px;
+    text-align: center;
+    padding: 20px;
+}
+.input-container input{
+  border:none;
+  outline:none;
+  padding: 20px;
+  margin-block: 12px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.input-container input[type="text"]{
+width: 250px;
+}
+.input-container input[type="button"]{
+    background-color: #3dad3d;
+    color: #fff;
+    font-weight:700;
+    margin-left: 8px;
+    cursor:pointer;
+    padding: 12px 24px;
+
+}
+.input-container input[type="button"]:hover{
+   background-color:#63ce63;
+}
+
+ul{
+    width: 70%;
+    max-width: 450px;
+    /* justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  margin-block-end: 12px;
+  border-radius: 6px;
+  border: 0.125px solid #302626;
+  padding: 9px 12px;
+  background-color: #ffffff;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+ul li:hover{
+    background-color:#cbcaca ;
+}
+
+
+ ul li p {
+   flex-grow: 1; 
+   padding: 2px; 
+}
+
+.btn {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent; /* fixed */
+  font-weight: 600;
+  cursor: pointer;
+   padding: 8px; 
+}
+
+.deleteBtn {
+  color: rgb(241, 87, 87);
+}
+
+.editBtn {
+  color: rgb(96, 219, 96);
+}
